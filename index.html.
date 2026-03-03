@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laundry Bersih Cepat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+      background: #eaf6ff;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 40px 20px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Laundry Bersih & Wangi</h1>
+  <p>Cepat, Murah, dan Profesional</p>
+  <a class="button" href="#">Hubungi Kami</a>
+</header>
+
+<section>
+  <h2>Layanan Kami</h2>
+  <div class="card">
+    <p>Cuci Kering</p>
+    <p>Rp 5.000 / Kg</p>
+  </div>
+  <div class="card">
+    <p>Cuci Setrika</p>
+    <p>Rp 7.000 / Kg</p>
+  </div>
+  <div class="card">
+    <p>Express 1 Hari</p>
+    <p>Tambah Rp 3.000 / Kg</p>
+  </div>
+</section>
+
+<section>
+  <h2>Kenapa Pilih Kami?</h2>
+  <p>✔ Proses cepat</p>
+  <p>✔ Wangi tahan lama</p>
+  <p>✔ Bisa antar jemput</p>
+</section>
+
+</body>
+</html>
