@@ -7,5 +7,10 @@
 
 <script>
   let nama = prompt("Masukkan nama kamu:");
-  alert("Halo " + nama);
+
+  if (nama === null || nama === "") {
+    alert("Kamu belum memasukkan nama.");
+  } else {
+    alert("Halo " + nama);
+  }
 </script>
