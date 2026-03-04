@@ -8,10 +8,17 @@
 <h1>Belajar JavaScript Dasar</h1>
 
 <script>
-  let angka = 5;
-  let hasil = angka + "sepuluh";
-let angkabaru = hasil * 2;
-  alert("Hasilnya adalah " + hasil);
+ let hargaProduk = 150000; // harga per item
+let jumlah = prompt("Masukkan jumlah produk yang dibeli:");
+
+// cek input
+if (jumlah === null || jumlah === "" || isNaN(jumlah)) {
+  alert("Jumlah tidak valid");
+} else {
+  let total = hargaProduk * jumlah;
+  alert("Total pembayaran: Rp " + total);
+}
+  
 </script>
 
 </body>
